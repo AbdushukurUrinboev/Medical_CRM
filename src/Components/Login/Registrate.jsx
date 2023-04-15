@@ -34,7 +34,6 @@ export default function Registrate() {
         })
     }
 
-console.log(mijos)
     return (
         <div className="loginBg">
             <div className="registrate">
