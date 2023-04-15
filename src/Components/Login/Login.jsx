@@ -13,7 +13,7 @@ export default function Login() {
             <div className="login">
                 <h1>Войти как:</h1>
                 <button className="hvr-float-shadow" onClick={() => navigate('/registrate')}>Пациент</button>
-                <button className="hvr-float-shadow">Врач</button>
+                <button className="hvr-float-shadow" onClick={() => navigate('/doctorLogin')}>Врач</button>
                 <button className="continue hvr-float-shadow" onClick={() => navigate('/')}>назад</button>
                 <h3>© 2023 All rights reserved</h3>
             </div>
