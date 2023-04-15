@@ -48,7 +48,7 @@ function Example(args) {
 
                         </Nav>
                         <div className="navbarBtn">Rus</div>
-                        <div className="navbarBtn">Log In</div>
+                        <div className="navbarBtn"><Link to='/login'>Log In</Link></div>
                     </Collapse>
                 </Navbar>
             </div>

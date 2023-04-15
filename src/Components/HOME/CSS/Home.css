@@ -1,0 +1,242 @@
+* a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  * {
+    font-family: "Puppins";
+  }
+  
+  /* HOME */
+  
+  /* Navbar */
+  .navbarController {
+    background: linear-gradient(to bottom, rgba(0, 56, 116, 0.9), rgba(5, 99, 114, 0.9));
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+  }
+  
+  .navbarLinkDiv {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  .navbarLinkDiv a {
+    color: white;
+  }
+  
+  .navbarBtn {
+    border: 1px solid white;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .navbarBtn:hover {
+    background-color: #01B2C8;
+    transition: 0.5s;
+  }
+  
+  .navbarBtn a{
+    color: white;
+  }
+  
+  /* Carousel */
+  .carouselText {
+    margin-left: 5%;
+    color: aliceblue;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .carouselImg {
+      height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .carouselImg {
+      height: 800px;
+    }
+  }
+  
+  /* Help */
+  .help {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .help img {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .help h1 {
+    font-weight: 800
+  }
+  
+  /* ABout us */
+  @media only screen and (min-width: 600px) {
+    .aboutUs {
+      height: 500px;
+    }
+  
+    .aboutUs h1 {
+      font-size: 400%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .aboutUs {
+      height: 300px;
+    }
+  
+    .aboutUs h1 {
+      font-size: 200%;
+    }
+  }
+  
+  .aboutUs {
+    text-align: center;
+    background-blend-mode: color-dodge;
+  }
+  
+  .aboutUs img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .aboutUs h1 {
+    position: relative;
+    top: -55%;
+    color: #808080;
+    font-weight: 700;
+  }
+  
+  .aboutUsText {
+    margin-top: 3%;
+  }
+  
+  .aboutUsText img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .aboutUsText p {
+    padding: 5%;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+  }
+  
+  /* PRICE */
+  #price {
+    text-align: center;
+  }
+  
+  .priceText {
+    width: 50%;
+    margin: 0 auto;
+    color: #00669D;
+    border-bottom: 5px solid #00669D;
+    margin-bottom: 5%;
+    font-weight: 600;
+  }
+  
+  .cards {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #b5b2b293;
+    margin-bottom: 5%;
+  }
+  
+  .cards:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .cards h1,
+  h2,
+  h4 {
+    border-bottom: 1px solid;
+    padding: 3%;
+  }
+  
+  .cards h1:hover,
+  h2:hover,
+  h4:hover {
+    background-color: #00669D;
+    color: white;
+  }
+  
+  .cards button {
+    background-color: #00669D;
+    width: 100%;
+    padding: 3%;
+    margin-top: -3%;
+    font-size: 180%;
+    color: white;
+  }
+  
+  /* ALoqa */
+  .aloqa {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #00669D;
+    margin-bottom: 5%;
+  }
+  
+  
+  
+  
+  /* Footer */
+  .footer {
+    width: 100%;
+    color: white;
+    padding: 2%;
+  }
+  
+  
+  .footer .row {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3%;
+    border-bottom: 1px solid white;
+  }
+  
+  .icon {
+    margin-bottom: 11%;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+    padding: 5%;
+    margin: 0 auto;
+    padding-top: 9%;
+    transform: rotateZ(45deg);
+  }
+  
+  .icon:hover {
+    border: 2px solid #00669D;
+    background-color: #0e8dd12b;
+  }
+  
+  .icon svg {
+    transition: 0.5s;
+    transform: rotateZ(-45deg);
+  }

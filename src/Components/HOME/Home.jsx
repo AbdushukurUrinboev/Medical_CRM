@@ -13,6 +13,8 @@ import vegroup2 from '../../images/home/aboutUs/wegroup2.jpg'
 import doxv from '../../images/home/aboutUs/doxv.jpg'
 import Footer from "./Footer";
 
+import './CSS/Home.css'
+
 export default function Home() {
     return (
         <div >

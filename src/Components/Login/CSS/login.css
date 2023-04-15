@@ -1,0 +1,80 @@
+.loginBg {
+  background-color: #F2F2FC;
+  position: absolute;
+  width: 100%;
+  padding: 5%;
+}
+
+.login {
+  background-color: white;
+  text-align: center;
+  width: fit-content;
+  padding: 2%;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+
+.login h1 {
+  color: gray;
+  font-size: 300%;
+  font-weight: 900;
+  padding-bottom: 20%;
+  margin-top: 20%;
+}
+
+.login button {
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 5%;
+  color: white;
+  background-color: #1090CB;
+  border: none;
+  border-radius: 10px;
+  font-size: 130%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login h3 {
+  border: none;
+  color: gray;
+  margin-top: 20%;
+  margin-bottom: -5%;
+  font-weight: 600;
+}
+
+
+/* Registrate */
+
+
+.registrate {
+  width: 50%;
+  background-color: white;
+  padding: 2%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.registrate input {
+  margin-top: 2%;
+  border-radius: 5px;
+  padding: 1%;
+  border: 1px solid rgb(144, 142, 142);
+}
+
+.checkbox {
+  border: 5px solid;
+  padding: 15%;
+}
+
+
+.continue {
+  display: block;
+  margin-top: 2%;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #1090CB;
+  color: white;
+  border: none;
+}
