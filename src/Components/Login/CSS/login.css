@@ -69,9 +69,9 @@
 }
 
 
-.continue {
-  display: block;
+.continue {  
   margin-top: 2%;
+  margin-right: 2%;
   padding: 1%;
   border-radius: 10px;
   background-color: #1090CB;
